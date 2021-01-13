@@ -44,14 +44,14 @@ INSERT INTO employeeRole (title, salary, department_id) values ("Legal Assistant
 INSERT INTO employeeRole (title, salary, department_id) values ("Sales Manager", 200000, 7); 
 INSERT INTO employeeRole (title, salary, department_id) values ("Salesperson", 150000, 8); 
 
-INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Lance", "Beaver", 8, 1);
-INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Kevin", "Currier", 7, 1);
-INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Jeff", "Judd", 6, 1);
-INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Nancy", "Spratlan", 5, 1);
-INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Cliff", "Spratlan", 4, 1);
-INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Brandon", "Rodriguez", 3, 1);
-INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Alex", "Johnson", 2, 1);
-INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Dunhill", "Cabahat", 1, 1);
+INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Derek", "Diaz", 8, 1);
+INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Kylar", "Hester", 7, 1);
+INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Matt", "Cline", 6, 1);
+INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Sheila", "Viator", 5, 1);
+INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Bernie", "Sanders", 4, 1);
+INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Britney", "Spears", 3, 1);
+INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Ty", "Mann", 2, 1);
+INSERT INTO employee (firstName, lastName, role_id, manager_id) values ("Forrest", "Gump", 1, 1);
 
 SELECT * FROM department;
 SELECT * FROM employeeRole;
