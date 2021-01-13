@@ -1,17 +1,17 @@
 {
-  "name": "employee-tracker",
+  "name": "db",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "asciiart-logo": "^0.2.6",
-    "console.table": "^0.10.0",
-    "inquirer": "^7.0.0",
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
     "mysql": "^2.18.1"
   }
 }
