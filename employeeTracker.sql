@@ -9,6 +9,7 @@ CREATE TABLE department (
   PRIMARY KEY (id)
 );
 
+
 CREATE TABLE employeeRole (
   id INT NOT NULL AUTO_INCREMENT,
   title VARCHAR (30),
